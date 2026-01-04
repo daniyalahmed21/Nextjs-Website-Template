@@ -32,7 +32,7 @@ const logos = [
 
 const LogoList = () => {
   return (
-    <section className="w-full flex flex-col items-center gap-12 p-8 sm:p-20">
+    <section className="w-full flex flex-col items-center gap-12 p-2">
       <div className="max-w-2xl text-center">
         <h3 className=" md:text-lg lg:text-xl font-semibold leading-relaxed">
           <span className="text-neutral-600 ">
@@ -44,7 +44,7 @@ const LogoList = () => {
           </span>
         </h3>
       </div>
-      <div className="grid grid-cols-2 md:grid-cols-3 gap-8 md:gap-12 w-full max-w-4xl px-4 mx-auto">
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-8 md:gap-12 w-full max-w-4xl  mx-auto">
         {logos.map((logo, index) => (
           <motion.div
             key={logo.title}

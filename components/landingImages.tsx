@@ -4,7 +4,7 @@ import { motion } from "motion/react";
 
 const LandingImages = () => {
   return (
-    <div className="relative p-10 sm:-mb-30 sm:h-screen w-full">
+    <div className="relative sm:p-10 sm:-mb-30 sm:h-screen w-full">
       <div className="absolute z-50 inset-x-0 bg-white w-full h-full mask-t-from-0% "></div>
 
       <div
