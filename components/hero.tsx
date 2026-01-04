@@ -8,9 +8,9 @@ import LandingImages from "./landingImages";
 
 const Hero = () => {
   return (
-    <section className="pt-16 md:pt-24 lg:pt-32 w-full overflow-hidden">
+    <section className=" w-full h-full overflow-hidden ">
       <Container>
-        <div className="flex flex-col items-center text-center md:items-start md:text-left">
+        <div className="mt-10 sm:mt-20 flex flex-col items-center text-center md:items-start md:text-left">
           <Heading
             as="h1"
             className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-tight leading-[1.1] max-w-4xl"
@@ -45,7 +45,7 @@ const Hero = () => {
             No credit card required. 14-day free trial.
           </p>
 
-          <div className="mt-16 sm:mt-24 w-full relative left-1/2 -translate-x-1/2 md:left-0 md:translate-x-0">
+          <div className="mt-16 sm:mt-24 w-full ">
             <LandingImages />
           </div>
         </div>

@@ -21,7 +21,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className=" border-b border-neutral-200 bg-white/80 backdrop-blur-md sticky top-0 z-50">
+    <nav className=" border-b border-neutral-200  backdrop-blur-md sticky top-0 z-101">
       <Container >
         <div className="flex items-center justify-between h-16">
           <Logo />
