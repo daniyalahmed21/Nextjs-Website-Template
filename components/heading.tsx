@@ -12,7 +12,7 @@ const Heading = ({
 }) => {
   const Tag = as;
 
-  return <Tag className={cn("text-2xl md:text-4xl lg:text-6xl tracking-tight font-sans", className)}>{children}</Tag>;
+  return <Tag className={cn("text-2xl max-w-xl md:text-4xl lg:text-6xl tracking-tight font-sans", className)}>{children}</Tag>;
 };
 
 export default Heading;

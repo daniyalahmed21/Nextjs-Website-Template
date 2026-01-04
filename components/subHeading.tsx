@@ -8,14 +8,14 @@ const SubHeading = ({
 }: {
   children: React.ReactNode;
   className?: string;
-  as?: "h1" | "h2" | "h3" | "h4";
+  as?: "p" | "h2" | "h3" | "h4";
 }) => {
   const Tag = as;
 
   return (
     <Tag
       className={cn(
-        "text-2xl md:text-4xl lg:text-6xl tracking-tight font-sans",
+        "text-base max-w-xl md:lg text-neutral-400 tracking-tight font-display",
         className
       )}
     >
