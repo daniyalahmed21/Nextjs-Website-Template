@@ -16,9 +16,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "AgentForce Marketing Template",
+  title: "BetterStack",
   description:
-    "Template for AgentForce Marketing made with Next.js, Tailwind CSS and motion for animations.",
+    "Template for BetterStack made with Next.js, Tailwind CSS and motion for animations.",
 };
 
 export default function RootLayout({
