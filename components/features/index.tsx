@@ -1,12 +1,13 @@
 import Container from "../container";
 import Heading from "../heading";
 import SubHeading from "../subHeading";
+import FeatureSection from "./FeatureSection";
 
 const Features = () => {
   return (
     <Container className="py-20 md:py-32">
       {/* Header Section */}
-      <div className="flex flex-col md:flex-row md:justify-between md:items-end gap-6 border-b border-neutral-100 pb-12">
+      <div className="flex flex-col md:flex-row md:justify-between md:items-end gap-6 pb-12">
         <div className="max-w-xl">
           <Heading className="font-bold text-3xl md:text-4xl lg:text-5xl tracking-tight">
             At a fraction of your <br />
@@ -21,6 +22,7 @@ const Features = () => {
           ingest all your data without the chaos.
         </SubHeading>
       </div>
+      <FeatureSection/>
     </Container>
   );
 };
