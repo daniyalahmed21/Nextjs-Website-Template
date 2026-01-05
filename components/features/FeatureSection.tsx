@@ -1,7 +1,7 @@
 import AgentList from "./AgentList";
 import FeatureCard from "./FeatureCard";
-import ShieldCard from "./ShieldCard";
 import WorkflowList from "./WorkflowList";
+import ShieldCard from "./ShieldCard";
 
 export default function FeatureSection() {
   return (
@@ -22,7 +22,7 @@ export default function FeatureSection() {
         className="sm:rounded-tr-4xl sm:rounded-br-4xl"
         title="Every Action Logged. Fully Auditable."
       >
-        {/* <ShieldCard /> */}
+        <ShieldCard />
       </FeatureCard>
     </section>
   );

@@ -11,9 +11,11 @@ type Props = {
 export default function FeatureCard({ title, children, className }: Props) {
   return (
     <div className={cn("relative rounded-md bg-neutral-50 shadow", className)}>
-      <div className="mb-6 min-h-60">{children}</div>
+      <div className=" min-h-70">
+        {children}
+        </div>
 
-      <div className="px-6 py-7 flex justify-between gap-4 items-center">
+      <div className="px-6 py-6 flex justify-between gap-4 items-center">
         <h3 className=" text-xl sm:text-2xl font-bold  text-neutral-800 font-sans">
           {title}
         </h3>
