@@ -23,13 +23,13 @@ const ShieldSVG = () => {
       <g data-figma-bg-blur-radius="33.452">
         <mask id="path-1-inside-1_44_1389" fill="white">
           <path
-            fill-rule="evenodd"
+            fillRule="evenodd"
             clip-rule="evenodd"
             d="M148.979 149.557C148.494 150.173 148.004 150.782 147.511 151.384L138.646 162.139C139.138 161.537 139.628 160.928 140.113 160.312L148.979 149.557Z"
           ></path>
         </mask>
         <path
-          fill-rule="evenodd"
+          fillRule="evenodd"
           clip-rule="evenodd"
           d="M148.979 149.557C148.494 150.173 148.004 150.782 147.511 151.384L138.646 162.139C139.138 161.537 139.628 160.928 140.113 160.312L148.979 149.557Z"
           fill="url(#paint0_linear_44_1389)"
@@ -129,7 +129,7 @@ const ShieldSVG = () => {
           transform="translate(-105.193 -116.105)"
         >
           <path
-            fill-rule="evenodd"
+            fillRule="evenodd"
             clip-rule="evenodd"
             d="M148.979 149.557C148.494 150.173 148.004 150.782 147.511 151.384L138.646 162.139C139.138 161.537 139.628 160.928 140.113 160.312L148.979 149.557Z"
           ></path>

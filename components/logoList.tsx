@@ -32,7 +32,7 @@ const logos = [
 
 const LogoList = () => {
   return (
-    <section className="w-full flex flex-col items-center gap-12 p-2">
+    <section className="w-full flex flex-col items-center gap-12 p-2 sm:mt-20">
       <div className="max-w-2xl text-center">
         <h3 className=" md:text-lg lg:text-xl font-semibold leading-relaxed">
           <span className="text-neutral-600 ">
