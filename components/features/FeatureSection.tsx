@@ -10,12 +10,12 @@ export default function FeatureSection() {
         className="sm:rounded-tl-4xl sm:rounded-bl-4xl overflow-hidden"
         title="Monitoring That Fits Your Production Stack"
       >
-        <div className="absolute bg-white/70 h-[70%]  mask-r-from-0% w-full z-50"></div>
+        {/* <div className="absolute bg-white/70 h-[70%]  mask-r-from-0% w-full z-50"></div> */}
         <AgentList />
       </FeatureCard>
 
       <FeatureCard title="Alerts That Escalate Only When It Matters">
-        {/* <WorkflowList /> */}
+        <WorkflowList />
       </FeatureCard>
 
       <FeatureCard

@@ -10,8 +10,8 @@ type Props = {
 
 export default function FeatureCard({ title, children, className }: Props) {
   return (
-    <div className={cn("relative rounded-md bg-neutral-50 shadow", className)}>
-      <div className=" min-h-70">
+    <div className={cn("relative rounded-md bg-neutral-100 shadow", className)}>
+      <div className="min-h-70">
         {children}
         </div>
 

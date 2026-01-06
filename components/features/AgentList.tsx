@@ -75,7 +75,7 @@ function AgentBadge({ time, color }: { time: string; color: string }) {
   );
 }
 
-function AgentHeader({
+export function AgentHeader({
   icon,
   name,
   time,
